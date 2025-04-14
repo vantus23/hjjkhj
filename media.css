@@ -1,0 +1,43 @@
+@media (max-width:1000px){
+ header{
+    background-position: center;
+    height:  50vh;
+ }
+ header div{
+    height: 50vh;
+ }
+ header h1{
+    font-size: 10vw;
+ }
+ .filter{
+    flex-direction: column;
+ }
+ #left{
+    width: 100%;
+    font-size: 2em;
+ }
+ #right{
+    width: 100%;
+    font-size: 2em;
+ }
+ #Alaska button{
+    padding: 10px 20px;
+    background-color: yellowgreen ;
+ }
+ #Japan{
+  flex-direction: column;
+ }
+ #Japan img {
+   width: 100%;
+ }
+ #Japan div {
+   width: 100%;
+   background-color: rgb(220, 124, 237);
+   padding: 15% 5%;
+   box-sizing: border-box;
+ }
+ #Japan h2 {
+   text-align: center;
+   font-size: 5vw;
+ }
+}
